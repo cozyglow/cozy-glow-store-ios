@@ -29,8 +29,9 @@ import Foundation
 struct Currency {
 
     private static let formatter: NumberFormatter = {
-        let formatter         = NumberFormatter()
-        formatter.numberStyle = .currency
+        let formatter          = NumberFormatter()
+        formatter.numberStyle  = .currency
+        formatter.currencyCode = "GBP"
         return formatter
     }()
     
