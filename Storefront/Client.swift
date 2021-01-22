@@ -30,10 +30,10 @@ import Pay
 
 final class Client {
     
-    static let shopDomain = "graphql.myshopify.com"
-    static let apiKey     = "8e2fef6daed4b93cf4e731f580799dd1"
-    static let merchantID = "merchant.com.your.id"
-    static let locale   = Locale(identifier: "en-US")
+    static let shopDomain = "cozy-glow.myshopify.com"
+    static let apiKey     = "fe1432b2240bff82682b6807799cf933"
+    static let merchantID = "uk.co.cozyglow"
+    static let locale   = Locale(identifier: "en-GB")
     
     static let shared = Client()
     
